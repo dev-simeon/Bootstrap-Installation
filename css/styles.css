@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 7% 13%;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    padding: 3%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+h2 {
+    font-size: 2.6rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+/**************************************************     MOBILE DESIGN      **************************************************/
+
+@media screen  and (max-width: 991px){
+    #title .container-fluid{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media screen and (max-width:768px){
+    h1{
+        font-size: 2.8rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .container-fluid, #pricing{
+        padding: 7% 0;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #title .container-fluid{
+        padding: 3% 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .column-wrap{
+        gap: 2rem;
+    }
+
+    .title-head{
+        padding: 0;
+    }
+
+    .cta-heading{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 460px){
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .cta-heading, h2{
+        font-size: 1.4rem;
+    }
+
+    .container-fluid, #pricing{
+        padding: 9% 0;
+        width: 85%;
+        margin: auto;
+    }
+
+    .navbar{
+        padding-bottom: 2rem;
+    }
+
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+}

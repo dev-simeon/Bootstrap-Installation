@@ -5,21 +5,24 @@ body {
     text-align: center;
 }
 
-.coloured-section{
+.coloured-section {
     background-color: #ff4c68;
     color: #fff;
 }
 
-h1, h2, h3{
+h1,
+h2 {
     font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
     font-weight: 900;
 }
 
-.container-fluid {
+.container {
     padding: 7% 13%;
 }
 
-#title .container-fluid{
+#title .container {
     padding: 3% 15% 7%;
     text-align: left;
 }
@@ -40,11 +43,6 @@ h1, h2, h3{
 
 .nav-link {
     font-size: 1.2em;
-}
-
-h1 {
-    font-size: 3.2rem;
-    line-height: 1.5;
 }
 
 .download-button {
@@ -77,6 +75,8 @@ h1 {
 }
 
 h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
     font-size: 1.5rem;
 }
 
@@ -86,11 +86,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-}
-
-h2 {
-    font-size: 2.6rem;
-    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -117,34 +112,30 @@ h2 {
     padding: 3% 2%;
 }
 
-.cta-heading{
+.cta-heading {
     font-family: "Montserrat";
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.5;
 }
 
-.social-icon{
+.social-icon {
     margin: 20px 10px;
 }
 
 
 /**************************************************     MOBILE DESIGN      **************************************************/
 
-@media screen  and (max-width: 991px){
-    #title .container-fluid{
+@media screen and (max-width: 991px) {
+    #title .container {
         text-align: center;
-    }
-
-    h1{
-        font-size: 4rem;
     }
 
     .title-img{
         position: static;
         transform: rotate(0);
     }
-}
+} 
 
 @media screen and (max-width:768px){
     h1{
@@ -202,4 +193,4 @@ h2 {
     .navbar-brand{
         font-size: 1.5rem;
     }
-}
+} 
